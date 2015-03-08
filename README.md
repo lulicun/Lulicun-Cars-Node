@@ -4,10 +4,22 @@ Get Started
 
 Install NodeJS http://nodejs.org/download/
 
-Test NodeJS node -v
+Test NodeJS install:
 
-Use NodeJS tool npm to install modules, in the root folder where the package.json saved, run sudo npm install
+node -v
 
-Download frontend libaries, in the root folder where the bower.json saved, run bower install
+Install node modules and libraries:
 
-Run the application: npm start
+	1. In the root folder where the package.json and Gruntfile.js saved to install grunt, run 
+		sudo npm install
+	2. cd into src folder where package.json and bower.json saved, install node modules required by app, run
+		sudo npm install
+	3. In the last step, npm installed bower for you, so now download frontend libaries, run in the same folder
+		bower install
+
+Start application:
+
+	In the root folder, run 
+		grunt
+	to start server, then input: http://localhost:8080 in browser to test.
+
