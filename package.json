@@ -2,7 +2,7 @@
   "name": "chatrooms",
   "private": true,
   "version": "0.0.1",
-  "description": "Minimalist multiroom chat server",
+  "description": "Lulicun Cars QRCode Reminder",
   "license": "MIT",
   "devDependencies": {
     "grunt": "^0.4.5",
