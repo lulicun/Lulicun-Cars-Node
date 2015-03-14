@@ -1,0 +1,17 @@
+{
+  "defaults": {
+    "apiEndpoint": "http://local-api.lulicun.com/",
+    "apiVersion": "v1",
+    "qrcodeReminderUrl": "192.168.1.2:3000/#/qrcodeReminder/"
+  },
+  "prod": {
+    "apiEndpoint": "http://api.lulicun.com/",
+    "apiVersion": "v1",
+    "qrcodeReminderUrl": "http://car.lulicun.com/#/qrcodeReminder/"
+  },
+  "local": {
+    "apiEndpoint": "http://local-api.lulicun.com/",
+    "apiVersion": "v1",
+    "qrcodeReminderUrl": "192.168.1.2:3000/#/qrcodeReminder/"
+  }
+}
