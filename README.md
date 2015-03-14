@@ -21,5 +21,10 @@ Start application:
 
 	In the root folder, run 
 		grunt
-	to start server, then input: http://localhost:8080 in browser to test.
+	to start server, then input: http://localhost:3000 in browser to test.
+
+Extra:
+	To deploy applicaiton as production,
+		grunt config --prod
+	and then, just upload the files inside src folder.
 
