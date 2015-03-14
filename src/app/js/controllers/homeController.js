@@ -6,8 +6,8 @@ app.controller('HomeCtrl', ['$scope', '$rootScope', '$location',
 		$scope.goToChat = function(){
 			$location.path('/chatRoom');
 		};
-		$scope.goToQRCodeReminder = function(){
-			$location.path('qrcodeReminder');
+		$scope.goToQRCodeGenerater = function(){
+			$location.path('qrcodeGenerater');
 		};
 	}
 ]);

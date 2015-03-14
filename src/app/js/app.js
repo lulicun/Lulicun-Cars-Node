@@ -16,9 +16,13 @@ app.config(['$routeProvider',
 				templateUrl: 'views/chatRoom.html',
 				controller: 'ChatRoomCtrl'
 			}).
-			when('/qrcodeReminder', {
+			when('/qrcodeReminder/:id', {
 				templateUrl: 'views/qrcodeReminder.html',
 				controller: 'QRCodeReminderCtrl'
+			}).
+			when('/qrcodeGenerater', {
+				templateUrl: 'views/qrcodeGenerater.html',
+				controller: 'QRCodeGeneraterCtrl'
 			}).						
 			otherwise({
 				redirectTo: '/home'
