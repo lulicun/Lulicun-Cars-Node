@@ -66,11 +66,11 @@ body #home_container #body .entry_checkbox:checked {
   transform: rotateZ(0deg);
 }
 
-input[type="checkbox"]:checked ~ #izq {
+body #home_container #body .entry_checkbox:checked ~ #izq {
   transform: translateX(-80%);
 }
 
-input[type="checkbox"]:checked ~ #der {
+body #home_container #body .entry_checkbox:checked ~ #der {
 	transform: translateX(80%);
 }
 

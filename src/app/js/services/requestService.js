@@ -14,6 +14,16 @@ app.factory('requestService', ['$rootScope', '$http', 'apiEndpoint', 'apiVersion
 
 					}
 				);
+			},
+			sendReminder: function(data, callback) {
+				$http.get(apiEndPointUrl + '/qrcodereminder/' + data).
+	  				success(function(data, status, headers, config) {
+						callback(data.result);
+					}).
+					error(function(data, status, headers, config) {
+
+					}
+				);
 			}
 		}
 		
